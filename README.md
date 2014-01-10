@@ -1,31 +1,10 @@
 LocalStorageJSON
 ================
 
-simple option localstorage to save data by JSON
-sample code1:
-<script src="LocalStorageJSON.js" type="text/javascript"></script>
-<script type="text/javascript">
-	var lsj=new LocalStorageJSON("namespace");
-	lsj.set("key","value");
-	alert(lsj.get("key"));
-	lsj.delete();
-</script>
+simple<p>simple option localstorage to save data by JSON sample code1: <script src=&quot;LocalStorageJSON.js&quot; type=&quot;text/javascript&quot;></script> <script type=&quot;text/javascript&quot;>  var lsj=new LocalStorageJSON(&quot;namespace&quot;);  lsj.set(&quot;key&quot;,&quot;value&quot;);  alert(lsj.get(&quot;key&quot;));  lsj.delete(); </script></p>
 
-sample code2:
-<script src="LocalStorageJSON.js" type="text/javascript"></script>
-<script type="text/javascript">
-	var array=["aa","bb"];
-	var lsj=new LocalStorageJSON("namespace");
-	lsj.set("key",array);
-	alert(lsj.get("key")[0]);
-	lsj.delete();
-</script>
+<p>sample code2: <script src=&quot;LocalStorageJSON.js&quot; type=&quot;text/javascript&quot;></script> <script type=&quot;text/javascript&quot;>  var array=[&quot;aa&quot;,&quot;bb&quot;];  var lsj=new LocalStorageJSON(&quot;namespace&quot;);  lsj.set(&quot;key&quot;,array);  alert(lsj.get(&quot;key&quot;)[0]);  lsj.delete(); </script></p>
 
-constructor:
-LocalStorageJSON(nameSpace)
+<p>constructor: LocalStorageJSON(nameSpace)</p>
 
-function:
-set(key,value)
-get(key)
-clear()
-delete()
+<p>function: set(key,value) get(key) clear() delete() </p>
